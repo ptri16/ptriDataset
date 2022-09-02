@@ -1,17 +1,1 @@
-Hasil pembakaran bahan bakar fosil oleh mesin, terutama kendaraan bermotor, akan mengeluarkan 
-sejumlah gas beracun yang dapat membahayakan manusia, terlebih lagi gas tersebut bersifat tidak 
-berwarna dan tidak berbau sehingga sulit untuk disadari. Sehingga dibutuhkan sebuah penelitian 
-mengenai sistem deteksi pencemaran gas beracun hasil pembuangan bahan bakar mesin, dengan 
-memanfaatkan Occupational Safety and Health Association (OSHA) milik pemerintahan Amerika 
-Serikat sebagai referensi utama dalam menentukan kadar racun gas yang terdeteksi oleh sistem 
-tergolong aman atau berbahaya berdasarkan nilai PPM nya. Adapun 3 jenis gas beracun yang akan 
-dideteksi, pertama deteksi gas Hidrokarbon atau HC menggunakan sensor MQ-2, kedua deteksi gas 
-Karbon monoksida atau CO menggunakan sensor MQ-7, dan ketiga deteksi gas Nitrogen Oksida atau
-NOx menggunakan sensor MQ-135. Sistem berbasis mikrokontroler ESP32 dan menggunakan metode 
-SVM atau Support Vector Machine untuk mengklasifikasi nilai hasil deteksi sensor gas MQ tergolong 
-aman atau berbahaya. Terdapat 60 data latih yang terbagi dalam 2 jenis, yaitu 30 data pada kondisi kadar 
-racun yang masih aman, dan 30 data pada kondisi berbahaya. Pengujian kinerja dan akurasi sistem 
-menggunakan 30 data uji yang juga terbagi dalam 2 jenis, yaitu 15 data pada kondisi kadar racun yang 
-masih aman, dan 15 data pada kondisi berbahaya. Hasil deteksi dan klasifikasi akan ditampilkan melalui 
-layar LCD disertai dengan bunyi alarm buzzer bila kondisi kadar racun tergolong berbahaya. Akurasi
-yang didapatkan dari hasil pengujian klasifikasi SVM sebesar 87%.
+Hasil pembakaran bahan bakar fosil oleh mesin, terutama kendaraan bermotor, akan mengeluarkan sejumlah gas beracun yang dapat membahayakan manusia, terlebih lagi gas tersebut bersifat tidak berwarna dan tidak berbau sehingga sulit untuk disadari. Sehingga dibutuhkan sebuah penelitian mengenai sistem deteksi pencemaran gas beracun hasil pembuangan bahan bakar mesin, dengan memanfaatkan Occupational Safety and Health Association (OSHA) milik pemerintahan Amerika Serikat sebagai referensi utama dalam menentukan kadar racun gas yang terdeteksi oleh sistem tergolong aman atau berbahaya berdasarkan nilai PPM nya. Adapun 3 jenis gas beracun yang akan dideteksi, pertama deteksi gas Hidrokarbon atau HC menggunakan sensor MQ-2, kedua deteksi gas Karbon monoksida atau CO menggunakan sensor MQ-7, dan ketiga deteksi gas Nitrogen Oksida atau NOx menggunakan sensor MQ-135. Sistem berbasis mikrokontroler ESP32 dan menggunakan metode SVM atau Support Vector Machine untuk mengklasifikasi nilai hasil deteksi sensor gas MQ tergolong aman atau berbahaya. Terdapat 60 data latih yang terbagi dalam 2 jenis, yaitu 30 data pada kondisi kadar racun yang masih aman, dan 30 data pada kondisi berbahaya. Pengujian kinerja dan akurasi sistem menggunakan 30 data uji yang juga terbagi dalam 2 jenis, yaitu 15 data pada kondisi kadar racun yang masih aman, dan 15 data pada kondisi berbahaya. Hasil deteksi dan klasifikasi akan ditampilkan melalui layar LCD disertai dengan bunyi alarm buzzer bila kondisi kadar racun tergolong berbahaya. Akurasi yang didapatkan dari hasil pengujian klasifikasi SVM sebesar 87%.
